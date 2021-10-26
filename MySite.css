@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background: linear-gradient(to right top, #9d00ff, #a23bec);
+    padding: 0 8px;
+}
+.main{
+    display: flex;
+    background:white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+        );
+    height: 87%;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.logo{
+    color: white;
+    width: 120px;
+    height: 25px;
+    margin-left: 20px
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 50px;
+}
+nav ul li{
+    font-size: 18px;
+    font-weight: 550;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    transition: width 0.3s;
+    border-radius: 150px;
+}
+
+nav ul li a:hover::after{
+    width: 70%;
+}
+.a1{
+    margin-top: -500px;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 30px;
+    background: linear-gradient(
+        to right top,
+        rgba(177, 6, 207, 0.3),
+        rgba(183, 0, 255, 0.3)
+        );
+}
+.a3{
+    position: absolute;
+    right: 20%;
+    bottom: 8%;    
+    width: 30px;
+    display: flex;
+}
+.a3 a i{
+    margin: 15px 30px;
+    color: white;
+    font-size: 25px;
+}
+.a2{
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 30px;
+}
+.a2 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.a2 h3{
+    font-size: 17px;
+    font-weight: 4000;
+}
+.a2 p{
+    font-size: 30px;
+    font-weight: 10;
+    margin-top: 10px;
+}
+.tom{
+    position: absolute;
+    width: 350px;
+    border-radius: 5px;
+    background: linear-gradient(
+        to right top,
+    rgba(177, 6, 207, 0.3),
+    rgba(183, 0, 255, 0.3)
+    );
+    border-radius: 10px;
+    margin-left: 815px;
+    margin-top: -250px;
+}
+.tom img{
+    width: 350px;
+    margin-left: 50px;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background: linear-gradient(to right top, #9d00ff, #a23bec);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a1{
+    padding: 40px 30px 50px 30px;
+    border-radius: 15px;
+    width: 500px;
+    background:white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+        );
+}
+.a1 header{
+    padding-bottom: 18px;
+    border-bottom: 2px solid #ebedf9;
+}
+header span{
+    font-size: 29px;
+    font-weight: 600;
+    color: white;
+}
+header .close{
+    color: #878787;
+    font-size: 17px;
+    background: #f2f2f2;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+header .close, .icons a{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+header .close:hover{
+    background: #ebedf9;
+}
+.a1 :is(header, .icons, .field){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a3{
+    font-size: 25px;
+    font-weight: 150;
+    color: white;
+    margin-top: 30px;
+}
